@@ -1,7 +1,7 @@
 const target = document.querySelector("#target-time");
 const countdown = document.querySelector("#countdown");
 
-let targetTime = new Date("5 July,2020").toDateString();
+let targetTime = new Date("5 July,2022").toDateString();
 let countdownDate = new Date("5 July,2022").getTime();
 
 let timer = setInterval(() => {
